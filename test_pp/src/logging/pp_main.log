@@ -1,0 +1,1138 @@
+2024-01-30 09:56:23,180 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 09:56:23,182 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 09:56:23,182 - INFO - Loading the powerpoint presentation
+2024-01-30 09:56:23,222 - INFO - Sending request to gpt-4
+2024-01-30 09:56:23,223 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 09:56:23,224 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 09:56:23,274 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words. Then write a summary of common applications for the Medical Imaging market in 200 words using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 09:56:23,278 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 09:56:23,428 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f76e935bb50>
+2024-01-30 09:56:23,428 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f76e9340340> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 09:56:23,493 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f76e935bb20>
+2024-01-30 09:56:23,494 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 09:56:23,496 - DEBUG - send_request_headers.complete
+2024-01-30 09:56:23,496 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 09:56:23,497 - DEBUG - send_request_body.complete
+2024-01-30 09:56:23,497 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 09:56:41,412 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 02:56:41 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'17544'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9893'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'642ms'), (b'x-request-id', b'f24f82060bebbfcbcd2ec5e06742e73c'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=L8HKPR8Ix4TlZa9DtvPivC4AANnY6ixC.pIToi4h8kU-1706583401-1-ASmS3yZDs4F0ub4kJaI4+odyRwZFgTKZfa7jviWVoBb6CCOGuazGZkmxJLKMwJ79qbNlj+5ULxb6s5FB89uId/Q=; path=/; expires=Tue, 30-Jan-24 03:26:41 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=ovv3G1qggTpvK22cMeHM_XQ7SlUYC3psHiD3HFLwH90-1706583401322-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d671030d1d24bf-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 09:56:41,419 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 09:56:41,420 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 09:56:41,422 - DEBUG - receive_response_body.complete
+2024-01-30 09:56:41,422 - DEBUG - response_closed.started
+2024-01-30 09:56:41,423 - DEBUG - response_closed.complete
+2024-01-30 09:56:41,423 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 09:56:41,434 - INFO - OpenAI response received
+2024-01-30 09:56:41,434 - INFO - Changing slide content for slide # 1
+2024-01-30 09:56:41,444 - INFO - Slide # 1 succesfully changed
+2024-01-30 09:56:41,448 - INFO - Slide # 1 succesfully changed
+2024-01-30 09:56:41,450 - INFO - Slide # 1 succesfully changed
+2024-01-30 09:56:41,459 - INFO - Saving new PowerPoint file
+2024-01-30 09:57:51,889 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 09:57:51,894 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 09:57:51,894 - INFO - Loading the powerpoint presentation
+2024-01-30 09:57:51,945 - INFO - Sending request to gpt-4
+2024-01-30 09:57:51,946 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 09:57:51,948 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 09:57:52,000 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 09:57:52,005 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 09:57:52,166 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ff6086968c0>
+2024-01-30 09:57:52,167 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7ff608673a40> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 09:57:52,231 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ff608696890>
+2024-01-30 09:57:52,231 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 09:57:52,232 - DEBUG - send_request_headers.complete
+2024-01-30 09:57:52,232 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 09:57:52,232 - DEBUG - send_request_body.complete
+2024-01-30 09:57:52,232 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 09:58:08,352 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 02:58:08 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'15762'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'abc140cc1d89db1ff773ee15016fae2a'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=GZaoP62I8MPqQrUXHANFTKywBfW_nRC1pos6j72gbRY-1706583488-1-ARyvWgybQxRM4UL4z6HiEVfb4dYL6InRteEbGIGeSuh6EMT5/loTbd7ocdwGJPF0L5xJ4coUhkb5aujKG5nRXzM=; path=/; expires=Tue, 30-Jan-24 03:28:08 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=CGjxpm9DNIEF387DONBJYJAdhnl.MxuWEihhUvfmIGM-1706583488295-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6732dae9c6e45-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 09:58:08,360 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 09:58:08,361 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 09:58:08,363 - DEBUG - receive_response_body.complete
+2024-01-30 09:58:08,363 - DEBUG - response_closed.started
+2024-01-30 09:58:08,364 - DEBUG - response_closed.complete
+2024-01-30 09:58:08,364 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 09:58:08,376 - INFO - OpenAI response received
+2024-01-30 09:58:08,376 - INFO - Changing slide content for slide # 4
+2024-01-30 09:58:08,398 - INFO - Slide # 4 succesfully changed
+2024-01-30 09:58:08,405 - INFO - Slide # 4 succesfully changed
+2024-01-30 09:58:08,410 - INFO - Slide # 4 succesfully changed
+2024-01-30 09:58:08,415 - INFO - Slide # 4 succesfully changed
+2024-01-30 09:58:08,418 - INFO - Slide # 4 succesfully changed
+2024-01-30 09:58:08,426 - INFO - Saving new PowerPoint file
+2024-01-30 10:00:15,751 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:00:15,753 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:00:15,753 - INFO - Loading the powerpoint presentation
+2024-01-30 10:00:15,794 - INFO - Sending request to gpt-4
+2024-01-30 10:00:15,795 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:00:15,796 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:00:15,846 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:00:15,851 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:00:15,920 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fdad55068c0>
+2024-01-30 10:00:15,921 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fdad54e6c40> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:00:15,978 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fdad5506890>
+2024-01-30 10:00:15,979 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:00:15,981 - DEBUG - send_request_headers.complete
+2024-01-30 10:00:15,981 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:00:15,982 - DEBUG - send_request_body.complete
+2024-01-30 10:00:15,982 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:00:31,612 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:00:31 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'15308'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'5d5be5730888dc3be69fdbc975103487'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=LMTw3WLRybmM5VpxwofZko4GUsVhyNQTLYMJcddMvpw-1706583631-1-AektVlc+TKSeOLWpYh0DNlo3qZOtMGV5l+AS2wL0+kbLcLD4dcGZUDOJqxlY+HOK+15WvkjvFqJSrHW+dBjBsrA=; path=/; expires=Tue, 30-Jan-24 03:30:31 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=k9xmlOFT42JvgjqgrWzhDuHDnLQUYflC.Ax6nChxYrw-1706583631563-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d676b00ba37167-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:00:31,619 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:00:31,620 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:00:31,622 - DEBUG - receive_response_body.complete
+2024-01-30 10:00:31,622 - DEBUG - response_closed.started
+2024-01-30 10:00:31,623 - DEBUG - response_closed.complete
+2024-01-30 10:00:31,623 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:00:31,634 - INFO - OpenAI response received
+2024-01-30 10:00:31,634 - INFO - Changing slide content for slide # 4
+2024-01-30 10:00:31,644 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:00:31,645 - INFO - Saving new PowerPoint file
+2024-01-30 10:05:41,186 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:05:41,188 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:05:41,188 - INFO - Loading the powerpoint presentation
+2024-01-30 10:05:41,229 - INFO - Sending request to gpt-4
+2024-01-30 10:05:41,230 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:05:41,231 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:05:41,281 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:05:41,285 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:05:41,386 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f8d4fcafb50>
+2024-01-30 10:05:41,387 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f8d4fc98340> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:05:41,448 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f8d4fcafb20>
+2024-01-30 10:05:41,448 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:05:41,450 - DEBUG - send_request_headers.complete
+2024-01-30 10:05:41,451 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:05:41,451 - DEBUG - send_request_body.complete
+2024-01-30 10:05:41,452 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:05:56,838 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:05:56 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'15050'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'0ec4cbc9a951412e5c39d2a024207023'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=HNQNSGwgvS6fN82r7L7a5Kp0arPZHV6eCACGLafH.qo-1706583956-1-ARHi64k3uuJmu+ZynTxb2LeqmsWCeNS84G06z/MFHtQR2meYowarWErZMyF+3xb7OHclIrzb/h4D4DNU27ah5oc=; path=/; expires=Tue, 30-Jan-24 03:35:56 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=amdEOtZPGDy5oyl3RMLn3daRg_nUNTujNe4TG.m3Qgs-1706583956759-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d67ea22cb2050d-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:05:56,845 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:05:56,846 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:05:56,847 - DEBUG - receive_response_body.complete
+2024-01-30 10:05:56,848 - DEBUG - response_closed.started
+2024-01-30 10:05:56,848 - DEBUG - response_closed.complete
+2024-01-30 10:05:56,849 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:05:56,859 - INFO - OpenAI response received
+2024-01-30 10:05:56,860 - INFO - Changing slide content for slide # 4
+2024-01-30 10:08:07,149 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:08:07,151 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:08:07,151 - INFO - Loading the powerpoint presentation
+2024-01-30 10:08:07,192 - INFO - Sending request to gpt-4
+2024-01-30 10:08:07,193 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:08:07,194 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:08:07,243 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:08:07,248 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:08:07,416 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f9e99e53d60>
+2024-01-30 10:08:07,417 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f9e99e3c340> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:08:07,482 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f9e99e53d30>
+2024-01-30 10:08:07,483 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:08:07,484 - DEBUG - send_request_headers.complete
+2024-01-30 10:08:07,485 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:08:07,486 - DEBUG - send_request_body.complete
+2024-01-30 10:08:07,486 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:08:21,223 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:08:21 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'13400'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'5de60d98abc4d4716e18af4fcefcecfe'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=rG4hy0gyLZzliosC6bXLaSRnFiKAcOmQ3KcGAsx_0_U-1706584101-1-Aa002GPgaC16971ENKGvEOTTwm3vBeStQfBb8HDzKzLuVok9SW+Nj7SfK3zXksOv5dtbQD5HrcxOFfYcN9AJ2QE=; path=/; expires=Tue, 30-Jan-24 03:38:21 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=uANlVKVMkwixIzQBr5ntePAsp7SiNZ2LEbmseUIT1.s-1706584101152-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d68232eb550f04-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:08:21,230 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:08:21,231 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:08:21,233 - DEBUG - receive_response_body.complete
+2024-01-30 10:08:21,233 - DEBUG - response_closed.started
+2024-01-30 10:08:21,233 - DEBUG - response_closed.complete
+2024-01-30 10:08:21,234 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:08:21,244 - INFO - OpenAI response received
+2024-01-30 10:08:21,245 - INFO - Changing slide content for slide # 4
+2024-01-30 10:08:21,256 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:08:21,259 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:08:21,261 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:08:21,263 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:08:21,265 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:08:21,273 - INFO - Saving new PowerPoint file
+2024-01-30 10:08:58,085 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:08:58,087 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:08:58,087 - INFO - Loading the powerpoint presentation
+2024-01-30 10:08:58,128 - INFO - Sending request to gpt-4
+2024-01-30 10:08:58,129 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:08:58,130 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:08:58,179 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:08:58,184 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:08:58,443 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fc0c0a7e6b0>
+2024-01-30 10:08:58,444 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fc0c0a64340> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:08:58,502 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fc0c0a7e680>
+2024-01-30 10:08:58,503 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:08:58,505 - DEBUG - send_request_headers.complete
+2024-01-30 10:08:58,505 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:08:58,506 - DEBUG - send_request_body.complete
+2024-01-30 10:08:58,506 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:09:13,652 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:09:13 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'14794'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'019f5d33d9ed127811de842288bad9cd'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=enysyrGRqmnuwhZa4n4QJHpDf0qrJ4wT6m_gBWM1mwQ-1706584153-1-AYGV8Q0Baqe4JvMdQj/pCNEVY05zI3G8xDQA0OSoug5cMzmwP759zWcjuJ6jC2uS4KE7VaEhk8OL44uxLKdLyRU=; path=/; expires=Tue, 30-Jan-24 03:39:13 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=oTiA_Z96PNjRBWsMl6gyhvP_Re.XOtcKdWAop5PgT8U-1706584153559-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d68371b89b079a-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:09:13,656 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:09:13,656 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:09:13,657 - DEBUG - receive_response_body.complete
+2024-01-30 10:09:13,657 - DEBUG - response_closed.started
+2024-01-30 10:09:13,657 - DEBUG - response_closed.complete
+2024-01-30 10:09:13,657 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:09:13,659 - INFO - OpenAI response received
+2024-01-30 10:09:13,660 - INFO - Changing slide content for slide # 4
+2024-01-30 10:09:13,662 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:09:13,668 - INFO - Saving new PowerPoint file
+2024-01-30 10:11:06,603 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:11:06,604 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:11:06,604 - INFO - Loading the powerpoint presentation
+2024-01-30 10:11:06,645 - INFO - Sending request to gpt-4
+2024-01-30 10:11:06,646 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:11:06,647 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:11:06,696 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:11:06,701 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:11:06,791 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f0397cca8c0>
+2024-01-30 10:11:06,791 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f0397cb82c0> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:11:06,861 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f0397cca890>
+2024-01-30 10:11:06,861 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:11:06,863 - DEBUG - send_request_headers.complete
+2024-01-30 10:11:06,864 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:11:06,864 - DEBUG - send_request_body.complete
+2024-01-30 10:11:06,865 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:11:20,092 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:11:20 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'12893'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'3a811d3e1b336dbd8c163e1b8556c9be'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=gr61EtJ070M8EpZCRjs6vFbAht2kNkGn95xPKyT7p30-1706584280-1-AeSJaZn7unGhyO5g2LIF8b4HsXll4Iwt4mqx5HlsRV2P1Y4iLF21EGUy5tYdftd6LTn8eCALx0BlFcJ0nL/by5Q=; path=/; expires=Tue, 30-Jan-24 03:41:20 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=tkPbo2D9aoun6WD408Fby9Vk11NSYf7VDka8J_BJR6Y-1706584280047-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d686940c6d0958-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:11:20,102 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:11:20,103 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:11:20,106 - DEBUG - receive_response_body.complete
+2024-01-30 10:11:20,106 - DEBUG - response_closed.started
+2024-01-30 10:11:20,107 - DEBUG - response_closed.complete
+2024-01-30 10:11:20,107 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:11:20,116 - INFO - OpenAI response received
+2024-01-30 10:11:20,117 - INFO - Changing slide content for slide # 4
+2024-01-30 10:13:45,303 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:13:45,304 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:13:45,304 - INFO - Loading the powerpoint presentation
+2024-01-30 10:13:45,346 - INFO - Sending request to gpt-4
+2024-01-30 10:13:45,346 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:13:45,347 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:13:45,396 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:13:45,401 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:13:45,548 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f7c46f4a8c0>
+2024-01-30 10:13:45,548 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f7c46f34740> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:13:45,616 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f7c46f4a890>
+2024-01-30 10:13:45,616 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:13:45,618 - DEBUG - send_request_headers.complete
+2024-01-30 10:13:45,618 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:13:45,619 - DEBUG - send_request_body.complete
+2024-01-30 10:13:45,619 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:14:00,067 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:13:59 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'14097'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'c2eaa89bf6e0a66fe04b78e3e939c5c6'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=ukTGj8zSE5sdDOD1_HpKFbSHEqm6xq4mWCL394WjOo8-1706584439-1-AXdKU+Dp8EWW6WDk0JKycDVsC+Cz5u8qTrZcG3994j6dJLww2cu0GNcji5e4hmKU+4brjc14xPSDlbIP9zR3PLc=; path=/; expires=Tue, 30-Jan-24 03:43:59 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=zn1AhVvHrrh2wP7zmtp68ApytB5EyLWTpO8tQSKMqrg-1706584439977-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d68a743d180ecc-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:14:00,074 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:14:00,074 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:14:00,076 - DEBUG - receive_response_body.complete
+2024-01-30 10:14:00,077 - DEBUG - response_closed.started
+2024-01-30 10:14:00,077 - DEBUG - response_closed.complete
+2024-01-30 10:14:00,078 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:14:00,089 - INFO - OpenAI response received
+2024-01-30 10:14:00,089 - INFO - Changing slide content for slide # 4
+2024-01-30 10:15:17,353 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:15:17,355 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:15:17,355 - INFO - Loading the powerpoint presentation
+2024-01-30 10:15:17,395 - INFO - Sending request to gpt-4
+2024-01-30 10:15:17,396 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:15:17,397 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:15:17,446 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:15:17,451 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:15:17,660 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f4e005228c0>
+2024-01-30 10:15:17,660 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f4e005088c0> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:15:17,817 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f4e00522890>
+2024-01-30 10:15:17,817 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:15:17,819 - DEBUG - send_request_headers.complete
+2024-01-30 10:15:17,820 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:15:17,820 - DEBUG - send_request_body.complete
+2024-01-30 10:15:17,821 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:15:31,817 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:15:31 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'13577'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'e199c066b3fc823848f3ce8a49aa9af6'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=L01.BmRbxZT5LkFhrrxx7ASh.sSyWAJoMGX1d9PNuRo-1706584531-1-AY/9e1fv/kC5lo9ZMR9phl68xjbRJZlN6kNw5Lvc9C0bZBgjW19AwnlgRgRQC7ks5g0X6ejizJGwFyMaB4gN85E=; path=/; expires=Tue, 30-Jan-24 03:45:31 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=Ur0k.XGAOXSf4i.DFih8khcy8PeewLOtoXLbp2Z9Qw4-1706584531692-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d68cb46bd804d6-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:15:31,828 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:15:31,830 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:15:31,833 - DEBUG - receive_response_body.complete
+2024-01-30 10:15:31,834 - DEBUG - response_closed.started
+2024-01-30 10:15:31,834 - DEBUG - response_closed.complete
+2024-01-30 10:15:31,835 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:15:31,848 - INFO - OpenAI response received
+2024-01-30 10:15:31,848 - INFO - Changing slide content for slide # 4
+2024-01-30 10:16:11,998 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:16:12,000 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:16:12,000 - INFO - Loading the powerpoint presentation
+2024-01-30 10:16:12,042 - INFO - Sending request to gpt-4
+2024-01-30 10:16:12,043 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:16:12,044 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:16:12,094 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:16:12,099 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:16:12,235 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f1da6a5bbe0>
+2024-01-30 10:16:12,235 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f1da6aefbc0> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:16:12,307 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f1da6a5bbb0>
+2024-01-30 10:16:12,308 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:16:12,309 - DEBUG - send_request_headers.complete
+2024-01-30 10:16:12,310 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:16:12,311 - DEBUG - send_request_body.complete
+2024-01-30 10:16:12,311 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:16:24,877 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:16:24 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'12228'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'7d1f60f912a332ee5fcb04e747c45525'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=08RLArFSf3H1TXb6aM2L0nR2dGbRMvwVwR8Ac7cEHr8-1706584584-1-AdWmumrsKZZH738MgIBT+2MQkusrcH+Yq77G8IRgghgecELK5LD8K/yNExCtCyDIY1AXU7shfbd/42NZ4z/RuUI=; path=/; expires=Tue, 30-Jan-24 03:46:24 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=NboHWzB4GchhqXrQKujA2dvPnPRb6VGAYXmqKVKeapY-1706584584802-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d68e090cfc1082-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:16:24,881 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:16:24,882 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:16:24,882 - DEBUG - receive_response_body.complete
+2024-01-30 10:16:24,883 - DEBUG - response_closed.started
+2024-01-30 10:16:24,883 - DEBUG - response_closed.complete
+2024-01-30 10:16:24,883 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:16:24,888 - INFO - OpenAI response received
+2024-01-30 10:16:24,888 - INFO - Changing slide content for slide # 4
+2024-01-30 10:17:46,932 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:17:46,934 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:17:46,934 - INFO - Loading the powerpoint presentation
+2024-01-30 10:17:46,976 - INFO - Sending request to gpt-4
+2024-01-30 10:17:46,977 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:17:46,978 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:17:47,028 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:17:47,033 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:17:47,203 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fb8a3dd28c0>
+2024-01-30 10:17:47,204 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fb8a3da3a40> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:17:47,271 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fb8a3dd2890>
+2024-01-30 10:17:47,272 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:17:47,273 - DEBUG - send_request_headers.complete
+2024-01-30 10:17:47,274 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:17:47,275 - DEBUG - send_request_body.complete
+2024-01-30 10:17:47,275 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:17:59,595 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:17:59 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'11981'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'7eff301d2a992c96cbc1b2a04dcfb9c3'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=Fzkw6TSdy9cxkFuEVD7VZD6Sl24_yFa7YR0_PbpVE0c-1706584679-1-ATMMRcUWQjBoWtL1oOnQ/8fz6CrtjZdTviVNmVvQd1ICyxZ/zNmqfjynl/1M3EwvtHzorQyqVHQH+mgCWDsjrqI=; path=/; expires=Tue, 30-Jan-24 03:47:59 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=cMvAjQr7F2Ik5xuiFYDfkMfpZtDdyo2J.iT12WS94b4-1706584679520-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6905a9d69096a-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:17:59,598 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:17:59,598 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:17:59,599 - DEBUG - receive_response_body.complete
+2024-01-30 10:17:59,599 - DEBUG - response_closed.started
+2024-01-30 10:17:59,599 - DEBUG - response_closed.complete
+2024-01-30 10:17:59,599 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:17:59,601 - INFO - OpenAI response received
+2024-01-30 10:17:59,602 - INFO - Changing slide content for slide # 4
+2024-01-30 10:18:11,439 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:18:11,441 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:18:11,441 - INFO - Loading the powerpoint presentation
+2024-01-30 10:18:11,482 - INFO - Sending request to gpt-4
+2024-01-30 10:18:11,483 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:18:11,484 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:18:11,532 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:18:11,537 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:18:11,623 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fcc89d6e8c0>
+2024-01-30 10:18:11,623 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fcc89d50e40> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:18:11,696 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fcc89d6e890>
+2024-01-30 10:18:11,697 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:18:11,699 - DEBUG - send_request_headers.complete
+2024-01-30 10:18:11,699 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:18:11,700 - DEBUG - send_request_body.complete
+2024-01-30 10:18:11,700 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:18:25,604 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:18:25 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'13539'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'83ff33237ccfdffbea3e39be9660f2fc'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=zSbAMZKt7QHZaWl0EahqmYS2FHfU3sOB5loj3sUqRCo-1706584705-1-AZFoz6/Pvk+Y3HPQlYj/6fXZzN/+4+nljghpwj3NUTY8n4zHKxiJGTcWGSHVlu9dXnNsI8XU5+eOK6f/6SEamDg=; path=/; expires=Tue, 30-Jan-24 03:48:25 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=VrGgqIbFzOHb0lwjAiaL1keymKZbSm3BWrnize.Ft3I-1706584705514-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d690f349b42367-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:18:25,605 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:18:25,606 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:18:25,606 - DEBUG - receive_response_body.complete
+2024-01-30 10:18:25,606 - DEBUG - response_closed.started
+2024-01-30 10:18:25,606 - DEBUG - response_closed.complete
+2024-01-30 10:18:25,606 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:18:25,609 - INFO - OpenAI response received
+2024-01-30 10:18:25,609 - INFO - Changing slide content for slide # 4
+2024-01-30 10:18:25,611 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:18:25,616 - INFO - Saving new PowerPoint file
+2024-01-30 10:19:01,995 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:19:01,997 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:19:01,997 - INFO - Loading the powerpoint presentation
+2024-01-30 10:19:02,039 - INFO - Sending request to gpt-4
+2024-01-30 10:19:02,040 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:19:02,041 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:19:02,091 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:19:02,096 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:19:02,252 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f335e4ebbe0>
+2024-01-30 10:19:02,252 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f335e583bc0> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:19:02,313 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f335e4ebbb0>
+2024-01-30 10:19:02,314 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:19:02,315 - DEBUG - send_request_headers.complete
+2024-01-30 10:19:02,316 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:19:02,316 - DEBUG - send_request_body.complete
+2024-01-30 10:19:02,317 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:19:16,188 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:19:16 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'13163'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'df8f916b4d1375091c9e5f154be422de'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=xXwifEQAiuEwrsbjjdMu6vD1LBJfPHgxMbIaHh2gSUE-1706584756-1-AXThM+yaiHrUwPNPVZ0pP1VX6zRySSC+3NHlQKDra9SObeL0p1/wkGf0BxQ/+Yru/WK8Zdqq+6ut/oKJosznQFM=; path=/; expires=Tue, 30-Jan-24 03:49:16 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=PLYw3wLvLszComhHWXp9IBL8JdnqE8elm4wWaBaNYkw-1706584756119-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6922f9b318b5d-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:19:16,195 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:19:16,196 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:19:16,198 - DEBUG - receive_response_body.complete
+2024-01-30 10:19:16,198 - DEBUG - response_closed.started
+2024-01-30 10:19:16,199 - DEBUG - response_closed.complete
+2024-01-30 10:19:16,199 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:19:16,210 - INFO - OpenAI response received
+2024-01-30 10:19:16,211 - INFO - Changing slide content for slide # 4
+2024-01-30 10:19:16,212 - INFO - Market Definition:
+
+The Medical Imaging Market encompasses the diagnosis and treatment processes that utilize various imaging techniques to visualize the human body's internal structures. These techniques include MRI (Magnetic Resonance Imaging), Ultrasound, CT Scan (Computed Tomography), X-ray, Nuclear Medicine, and others. This market is instrumental in the healthcare industry, providing valuable insights for accurate diagnostic and therapeutic procedures. It's growth is driven by an aging global population, advancements in imaging technologies, increasing investments in healthcare infrastructure, and the rising prevalence of chronic diseases. The market is segmented by product, technology, application, end-user, and region. Major players in this field include GE Healthcare, Siemens Healthineers, Philips Healthcare, and Canon Medical Systems.
+
+Common Applications: 
+
+- Disease Diagnosis: Medical imaging is extensively used for diagnosing various diseases like cancer, cardiovascular diseases, neurological disorders, etc., by providing detailed images of the affected areas.
+
+- Surgical Applications: Surgeons use imaging technologies for pre-surgical planning and intraoperative imaging to ensure precision and successful outcomes.
+
+- Radiology: Radiologists use medical imaging to interpret images, identify abnormalities, and monitor the progression or regression of diseases.
+
+- Orthopedics: Medical imaging is used to visualize bone structure and detect fractures, deformities, or diseases.
+
+- Obstetrics & Gynecology: Ultrasound imaging is widely used in prenatal care to monitor the health and development of the fetus.
+
+- Cardiology: Imaging technologies like Echocardiography, Cardiac CT, and Nuclear Cardiology are used for diagnosing and treating heart conditions.
+
+- Neurology: Neuroimaging techniques are vital for diagnosing brain diseases and injuries, studying brain development, and researching neurological conditions.
+
+In summary, the Medical Imaging Market plays a critical role in modern healthcare, enhancing diagnostic accuracy and driving effective treatments across a wide range of medical disciplines.
+2024-01-30 10:19:16,220 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:19:16,229 - INFO - Saving new PowerPoint file
+2024-01-30 10:24:40,597 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:24:40,599 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:24:40,599 - INFO - Loading the powerpoint presentation
+2024-01-30 10:24:40,644 - INFO - Sending request to gpt-4
+2024-01-30 10:24:40,645 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:24:40,646 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:24:40,697 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:24:40,702 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:24:40,924 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f30034aa8c0>
+2024-01-30 10:24:40,924 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f3003498140> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:24:40,991 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f30034aa890>
+2024-01-30 10:24:40,992 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:24:40,994 - DEBUG - send_request_headers.complete
+2024-01-30 10:24:40,994 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:24:40,995 - DEBUG - send_request_body.complete
+2024-01-30 10:24:40,995 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:24:56,743 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:24:56 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'15373'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'05753535f0d4f96916563367dc6ab814'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=Dwxlt9DPsF.q4Qii04eKe0n18EnDbDitb4tug_pXx_s-1706585096-1-ATypFczBVySqVc/AmEBYPxmej1B5piOl1Qo15TYDf4aeGhLfKnOu6YGkQNwVjy9okrmMB5Vzvhl3v9F6XEFtCPU=; path=/; expires=Tue, 30-Jan-24 03:54:56 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=y4Kkpi.J0YpGBMF9dpKutfti8hejRdyZKuQhAliNSNg-1706585096646-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d69a746da01923-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:24:56,744 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:24:56,751 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:24:56,751 - DEBUG - receive_response_body.complete
+2024-01-30 10:24:56,751 - DEBUG - response_closed.started
+2024-01-30 10:24:56,751 - DEBUG - response_closed.complete
+2024-01-30 10:24:56,751 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:24:56,754 - INFO - OpenAI response received
+2024-01-30 10:24:56,754 - INFO - Changing slide content for slide # 4
+2024-01-30 10:24:56,754 - INFO - Market Definition:
+The Medical Imaging Market encompasses the wide-ranging technology used to view the human body in order to diagnose, monitor, or treat medical conditions. It involves various modalities like X-ray, ultrasound, computed tomography (CT scan), magnetic resonance imaging (MRI), positron emission tomography (PET scan), and nuclear medicine. The market also includes imaging equipment, software, and services such as maintenance, storage, and consulting. The global medical imaging market is seeing consistent growth, driven by increasing prevalence of chronic diseases, technological advancements, growing geriatric population, and rising healthcare expenditures. Moreover, emerging markets like Asia-Pacific and Latin America offer significant growth opportunities due to increasing awareness about early disease detection and prevention. However, the market faces challenges such as high equipment cost and regulatory hurdles. 
+
+Common Applications:
+• Diagnostic Imaging: Used extensively for diagnosing diseases and disorders, including cancer, cardiovascular diseases, neurological disorders, and musculoskeletal conditions.
+
+• Preventive Healthcare: Regular screenings for early detection of diseases like breast cancer (mammograms), lung cancer (CT scans), or heart disease.
+
+• Surgical Applications: Preoperative imaging to guide surgeons during procedures, and postoperative imaging to monitor patient recovery.
+
+• Research and Development: Medical imaging plays a crucial role in medical research, helping to understand disease progression and effectiveness of treatments.
+
+• Therapeutic Applications: Certain types of imaging, such as ultrasound, can be used in therapeutic applications such as the treatment of kidney stones or tumors.
+
+• Interventional Radiology: Uses imaging to guide minimally invasive surgical procedures, improving accuracy and reducing recovery time. 
+
+• Telemedicine: Remote diagnostic services for areas lacking advanced healthcare facilities.
+2024-01-30 10:25:23,531 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:25:23,533 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:25:23,533 - INFO - Loading the powerpoint presentation
+2024-01-30 10:25:23,574 - INFO - Sending request to gpt-4
+2024-01-30 10:25:23,575 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:25:23,576 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:25:23,626 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:25:23,630 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:25:23,787 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fcd759f28c0>
+2024-01-30 10:25:23,787 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fcd759d32c0> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:25:23,855 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fcd759f2890>
+2024-01-30 10:25:23,856 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:25:23,858 - DEBUG - send_request_headers.complete
+2024-01-30 10:25:23,858 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:25:23,859 - DEBUG - send_request_body.complete
+2024-01-30 10:25:23,859 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:25:37,192 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:25:37 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'12988'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'51ba2af6e1a211a4d07c583fe8c14d9e'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=8oaEfP0MY1BMrh2VuRGgtGFmA4yLp9yetenw71V_ZxQ-1706585137-1-Ab2BCLDbj7mX0xHQPrRerxm5tGMc7AiwvUcgx8NOB9UGyi+5CZuIiC5qQHOHiRG0qQ6oxDgRTRZY171Dfc8Ok/U=; path=/; expires=Tue, 30-Jan-24 03:55:37 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=in4cMwM98JSL7kOutR5wnj94CH.kl11OMkxSbUHhq7k-1706585137137-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d69b804d890516-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:25:37,196 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:25:37,197 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:25:37,199 - DEBUG - receive_response_body.complete
+2024-01-30 10:25:37,199 - DEBUG - response_closed.started
+2024-01-30 10:25:37,199 - DEBUG - response_closed.complete
+2024-01-30 10:25:37,200 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:25:37,207 - INFO - OpenAI response received
+2024-01-30 10:25:37,207 - INFO - Changing slide content for slide # 4
+2024-01-30 10:25:37,209 - INFO - Market Definition:
+
+The Medical Imaging Market encompasses the development, sales, and application of various imaging technologies and equipment used for diagnostic and therapeutic purposes in healthcare. This market includes modalities such as X-ray, ultrasound, computed tomography (CT), magnetic resonance imaging (MRI), nuclear medicine, and others, utilized in various medical specialties like cardiology, neurology, orthopedics, and gynecology. The market is driven by factors such as technological advancements, rising prevalence of chronic diseases, and aging population globally. It also includes software solutions for image analysis and storage, and services related to equipment maintenance and training. The market participants range from manufacturers of medical imaging equipment to service providers, healthcare institutions, and research organizations. 
+
+Common Applications:
+
+• Diagnostic Imaging: Medical imaging devices like X-ray, CT, and MRI are extensively used for diagnosing ailments such as cancer, cardiovascular diseases, neurological disorders, and musculoskeletal conditions. 
+
+• Preventive Screening: Medical imaging is used for early detection of diseases, such as mammography for breast cancer screening and bone density scanning for osteoporosis.
+
+• Interventional Procedures: Medical imaging guides minimally invasive procedures, like angioplasty and stent placement, by providing real-time images of the body’s interior.
+
+• Treatment Planning: Medical imaging helps in planning treatment strategies, such as radiation therapy for cancer treatment.
+
+• Research and Development: Medical imaging is vital in clinical trials for new drugs or therapies, helping researchers visualize the impact of treatments.
+
+• Medical Education: Medical imaging is used in teaching anatomy, pathology, and radiology to medical students.
+
+• Virtual Autopsy: Some forensic investigations use medical imaging technologies for non-invasive autopsies.
+2024-01-30 10:26:24,614 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:26:24,616 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:26:24,616 - INFO - Loading the powerpoint presentation
+2024-01-30 10:26:24,658 - INFO - Sending request to gpt-4
+2024-01-30 10:26:24,659 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:26:24,660 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:26:24,709 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:26:24,714 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:26:24,875 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f4927c9a8c0>
+2024-01-30 10:26:24,876 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f4927c840c0> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:26:24,933 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f4927c9a890>
+2024-01-30 10:26:24,933 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:26:24,935 - DEBUG - send_request_headers.complete
+2024-01-30 10:26:24,936 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:26:24,936 - DEBUG - send_request_body.complete
+2024-01-30 10:26:24,937 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:26:38,467 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:26:38 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'13221'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'2791086c1904cb2c6610123a0a923187'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=EOaWJN2898I6Y46CLTeY0vM8ZN1iB9oOBs65r5mALzI-1706585198-1-AbWjzzy3K+L/T9tpjLQGVE4MCwmkMQXNKIayb5MOxAciqMo3hptGOQ19kujeE5jsFrHsVIlF472NmhfWAAuLYGw=; path=/; expires=Tue, 30-Jan-24 03:56:38 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=.tU2wESeVq5QvhHlrETQyGr_zjG2xRuAJm01T.XPPhg-1706585198434-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d69cfdfbb4b46d-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:26:38,473 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:26:38,474 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:26:38,476 - DEBUG - receive_response_body.complete
+2024-01-30 10:26:38,476 - DEBUG - response_closed.started
+2024-01-30 10:26:38,477 - DEBUG - response_closed.complete
+2024-01-30 10:26:38,477 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:26:38,488 - INFO - OpenAI response received
+2024-01-30 10:26:38,488 - INFO - Changing slide content for slide # 4
+2024-01-30 10:26:38,490 - INFO - Market Definition:
+
+The medical imaging market refers to the global industry concerned with the development, production, and utilization of technologies and services for visualizing the human body to diagnose, monitor, and treat medical conditions. It comprises various sub-sectors, including X-ray imaging, magnetic resonance imaging (MRI), ultrasound imaging, computed tomography (CT), nuclear imaging, and others. The market also covers the production of contrast agents and imaging systems, as well as the provision of software solutions and services for image analysis and interpretation. This market is driven by factors such as technological advancements, increasing prevalence of chronic diseases, rising geriatric population, and growing healthcare expenditure. The medical imaging market operates within a highly regulatory environment, overseen by bodies such as the U.S. FDA and European Medicines Agency, ensuring safety and efficiency in imaging procedures.
+
+Common Applications:
+
+- Diagnosis: Medical imaging technologies are used to diagnose a wide range of diseases and conditions, from cancer and heart disease to bone fractures and gastrointestinal issues.
+  
+- Monitoring: Imaging techniques like ultrasound and MRI can monitor the progress of diseases or recovery from injuries, helping physicians adjust treatment plans as needed.
+
+- Surgical Planning: Detailed images from CT scans and MRIs can help surgeons plan procedures, increasing surgical precision and patient safety.
+
+- Research: Medical imaging is crucial in clinical research, assisting in the development of new drugs and therapies, as well as understanding disease progression.
+
+- Preventive Screening: Regular imaging tests such as mammograms and colonoscopies can detect diseases like cancer at early stages, enhancing the prospects of successful treatment.
+
+- Image-guided Therapy: Certain therapeutic procedures, such as tumor ablation or angioplasty, use real-time imaging to guide the intervention.
+  
+- Telemedicine: With the digitalization of medical imaging, tele-radiology is enabling remote diagnosis and consultation.
+2024-01-30 10:26:50,808 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:26:50,810 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:26:50,810 - INFO - Loading the powerpoint presentation
+2024-01-30 10:26:50,851 - INFO - Sending request to gpt-4
+2024-01-30 10:26:50,852 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:26:50,853 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:26:50,901 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:26:50,906 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:26:51,040 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe7a8b668c0>
+2024-01-30 10:26:51,040 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fe7a8b43ac0> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:26:51,103 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe7a8b66890>
+2024-01-30 10:26:51,103 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:26:51,104 - DEBUG - send_request_headers.complete
+2024-01-30 10:26:51,104 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:26:51,104 - DEBUG - send_request_body.complete
+2024-01-30 10:26:51,104 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:27:04,538 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:27:04 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'13046'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'b983bae53ee463b7fe2acc5f039cd190'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=j8v5TbQCOcnFvL5WAF56qOvp8UlI4L.yryTbknPKPVA-1706585224-1-AX6dDSPazbVQMTAjx23ODsWKHHLxstoXxy29BQ8McSfcaUMpXUxOdxqBpHHiAP114etZPEoRedCazf7jzHg1g70=; path=/; expires=Tue, 30-Jan-24 03:57:04 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=FN1qyCOdnDQPIWyJuKVsSz6n0E5YUT6QSaBRlIal0Pw-1706585224450-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d69da19c1c515e-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:27:04,545 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:27:04,546 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:27:04,547 - DEBUG - receive_response_body.complete
+2024-01-30 10:27:04,548 - DEBUG - response_closed.started
+2024-01-30 10:27:04,548 - DEBUG - response_closed.complete
+2024-01-30 10:27:04,549 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:27:04,560 - INFO - OpenAI response received
+2024-01-30 10:27:04,560 - INFO - Changing slide content for slide # 4
+2024-01-30 10:27:04,562 - INFO - Market Definition:
+
+The Medical Imaging Market refers to a global sector encompassing a range of technologies and techniques used to visualize the human body for diagnostic, monitoring and therapeutic purposes. These technologies include, but are not limited to, X-ray imaging, magnetic resonance imaging (MRI), ultrasound, computed tomography (CT), positron emission tomography (PET), and nuclear medicine. The market includes both hardware (machines, devices) and software solutions for image processing and analysis, as well as related services like maintenance, training, and consulting. The market demand is driven by increasing prevalence of chronic diseases, technological advancements, and aging populations. It is further segmented by end-users, such as hospitals, diagnostic centers, research institutes, and pharmaceutical companies, and geography. The global medical imaging market is highly competitive and characterized by rapid innovation and regulatory scrutiny.
+
+Applications of Medical Imaging:
+
+- Diagnostics: Medical imaging is extensively used in diagnosing a variety of health conditions, from bone fractures to cancer.
+- Monitoring: It helps in tracking the progression of diseases and effectiveness of treatment.
+- Surgical Planning: Images provide surgeons with a detailed view of the area to be operated on, enhancing surgical precision.
+- Research: Used in clinical studies to understand disease processes and evaluate new treatments.
+- Preventive Medicine: Regular screenings like mammograms and heart scans can detect early signs of diseases.
+- Interventional Procedures: Imaging guides minimally invasive procedures, such as biopsies or catheter placements.
+- Therapeutic Applications: Certain imaging techniques, like ultrasound, can be used in therapy, such as breaking down kidney stones.
+- Pharmaceutical Development: Imaging is used in drug development to assess the safety and efficacy of new medications.
+2024-01-30 10:27:17,699 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:27:17,701 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:27:17,701 - INFO - Loading the powerpoint presentation
+2024-01-30 10:27:17,743 - INFO - Sending request to gpt-4
+2024-01-30 10:27:17,744 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:27:17,745 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:27:17,795 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:27:17,800 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:27:17,969 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f7905ea68c0>
+2024-01-30 10:27:17,969 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f7905e89f40> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:27:18,040 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f7905ea6890>
+2024-01-30 10:27:18,041 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:27:18,042 - DEBUG - send_request_headers.complete
+2024-01-30 10:27:18,043 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:27:18,043 - DEBUG - send_request_body.complete
+2024-01-30 10:27:18,044 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:27:31,879 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:27:31 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'13413'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9889'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'666ms'), (b'x-request-id', b'aa4d75c39de61dfc676e6141997e0474'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=abi1xZIzpGQoUAkcRVo1iGValjnjedfoxcmlP6Zg43M-1706585251-1-AZmMDwvlSJDV84+0Dh2jDUKh8SagCHrJA7KE3jXt5ZJWvYQaTOCTQgb35iI7i9+LM6lIqC8AQdDoBvAJniiecrg=; path=/; expires=Tue, 30-Jan-24 03:57:31 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=6kg3lwHzhqhomQJIIcIdT6RmEgcDZLXQ2kqEMvUzhJE-1706585251744-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d69e49fde95de6-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:27:31,882 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:27:31,883 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:27:31,883 - DEBUG - receive_response_body.complete
+2024-01-30 10:27:31,883 - DEBUG - response_closed.started
+2024-01-30 10:27:31,883 - DEBUG - response_closed.complete
+2024-01-30 10:27:31,884 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:27:31,886 - INFO - OpenAI response received
+2024-01-30 10:27:31,886 - INFO - Changing slide content for slide # 4
+2024-01-30 10:27:31,887 - INFO - Market Definition:
+
+The Medical Imaging Market encompasses all technologies and services related to the production of visual representations of the interior of a body for clinical analysis and medical intervention. This includes but is not limited to technologies such as X-rays, Ultrasound, CT scans, MRI machines, and other nuclear medicine imaging techniques. It also involves the software, hardware, and services related to image acquisition, processing, and interpretation. The market is primarily driven by the growing demand for early-stage diagnosis of chronic diseases, an aging population, and advancements in medical imaging technologies. It includes various players from medical equipment manufacturers, software developers, to service providers. The market is experiencing a significant growth due to the increasing investment in healthcare infrastructure, growing patient awareness, and the rise in the number of diagnostic imaging procedures.
+
+Common Applications:
+
+• Diagnostic imaging in healthcare facilities: Hospitals and clinics use medical imaging to diagnose a variety of illnesses and conditions, from broken bones to cancer.
+
+• Preventive screenings: Medical imaging technologies like mammography and colonoscopy can be used for early detection of diseases.
+
+• Guiding surgical procedures: Surgeons use medical imaging to guide them during complex surgeries.
+
+• Monitoring of chronic diseases: Medical imaging assists in tracking the progression of chronic diseases like heart disease and diabetes.
+
+• Research and Development: Medical imaging is crucial in medical research for understanding more about human anatomy and developing new treatments.
+
+• Tele-radiology: This application enables radiologists to provide services without needing to be in the same location as the patient or medical practitioner.
+
+• Veterinary applications: Medical imaging is also used for diagnosing and treating diseases in animals.
+2024-01-30 10:30:18,090 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:30:18,092 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:30:18,092 - INFO - Loading the powerpoint presentation
+2024-01-30 10:30:18,132 - INFO - Sending request to gpt-4
+2024-01-30 10:30:18,133 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:30:18,134 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:30:18,196 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:30:18,201 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:30:18,361 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fcdeb25e6b0>
+2024-01-30 10:30:18,362 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fcdeb2443c0> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:30:18,421 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fcdeb25e680>
+2024-01-30 10:30:18,422 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:30:18,423 - DEBUG - send_request_headers.complete
+2024-01-30 10:30:18,424 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:30:18,424 - DEBUG - send_request_body.complete
+2024-01-30 10:30:18,425 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:30:31,999 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:30:31 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'13221'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9874'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'756ms'), (b'x-request-id', b'4811872562a44cb9e346242577f6b0f3'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=XQ4uIXylypRm50pg8PvKsng0MGhZlkXtEbwEtTO7tFo-1706585431-1-AfWOEm5tyTquOkSHNqP//9zIBvUp/oPKAdhf+MLWDQF7lZ0t4Tq2KCJM1en5eREvlG0B9tF5mroZhqdEicrqtuQ=; path=/; expires=Tue, 30-Jan-24 04:00:31 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=QgD_m.fAO3_m7.GkwS8R8_bc1oicZF50A3u2M9lkKco-1706585431915-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6a2b14db25ddd-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:30:32,003 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:30:32,004 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:30:32,004 - DEBUG - receive_response_body.complete
+2024-01-30 10:30:32,004 - DEBUG - response_closed.started
+2024-01-30 10:30:32,004 - DEBUG - response_closed.complete
+2024-01-30 10:30:32,004 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:30:32,007 - INFO - OpenAI response received
+2024-01-30 10:30:32,007 - INFO - Changing slide content for slide # 4
+2024-01-30 10:30:32,007 - INFO - The Medical Imaging Market encompasses all technologies and services related to the capture of visual representations of the interior of a body for clinical analysis and medical intervention. The market includes a wide array of technologies such as X-ray, ultrasound, magnetic resonance imaging (MRI), computed tomography (CT), and nuclear medicine including positron emission tomography (PET). Additionally, it covers the software and hardware associated with these imaging technologies, as well as any related services, such as training, maintenance, and consultation. This market is driven by factors such as the increasing prevalence of chronic diseases, the rise of an aging population, technological advancements, and the growth of the healthcare sector globally. Key players in this market include GE Healthcare, Siemens Healthineers, Philips Healthcare, and Canon Medical Systems, among others.
+
+Common applications for the Medical Imaging Market include:
+
+- Diagnostic imaging: Used to identify abnormalities within the body, such as tumors, fractures, or infections.
+- Surgical planning: Provides detailed images to help surgeons plan procedures effectively.
+- Monitoring treatment: Tracks the progress of medical treatments or therapies, such as the shrinkage of a tumor during chemotherapy.
+- Research: Utilized in clinical studies to understand more about specific diseases or conditions.
+- Interventional radiology: Guides minimally invasive surgical procedures using medical imaging.
+- Orthopedics: Helps in diagnosing and treating conditions related to bones, joints, and muscles.
+- Cardiology: Used in detecting and managing heart-related diseases.
+- Obstetrics/gynecology: Used in prenatal care to monitor the health and development of fetuses.
+2024-01-30 10:31:05,900 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:31:05,901 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:31:05,901 - INFO - Loading the powerpoint presentation
+2024-01-30 10:31:05,942 - INFO - Sending request to gpt-4
+2024-01-30 10:31:05,943 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:31:05,944 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:31:05,992 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:31:05,997 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:31:06,249 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7faba8eaa8c0>
+2024-01-30 10:31:06,250 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7faba8e87ac0> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:31:06,308 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7faba8eaa890>
+2024-01-30 10:31:06,308 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:31:06,310 - DEBUG - send_request_headers.complete
+2024-01-30 10:31:06,310 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:31:06,311 - DEBUG - send_request_body.complete
+2024-01-30 10:31:06,311 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:31:18,179 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:31:18 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'11494'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9874'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'756ms'), (b'x-request-id', b'c27ca239407de2f6c09658d018380425'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=OVUMsHTz6W9n7VYmlSbIdtgtlIc6vsB3jAYcsrNnefU-1706585478-1-AY18C84CBGXfjrv59S8WKwcm8R8EhiWMHf2Uy+PB6GULpd2lKUTUZ8COdtGPy3LHH0Zda/IjbtOagt01ez6UWT4=; path=/; expires=Tue, 30-Jan-24 04:01:18 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=fchMAuTMu9t91ki8w2kDNQaKtJJ.WGoA9Jjiey5bHdw-1706585478086-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6a3dc9dc21110-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:31:18,181 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:31:18,181 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:31:18,181 - DEBUG - receive_response_body.complete
+2024-01-30 10:31:18,181 - DEBUG - response_closed.started
+2024-01-30 10:31:18,181 - DEBUG - response_closed.complete
+2024-01-30 10:31:18,181 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:31:18,184 - INFO - OpenAI response received
+2024-01-30 10:31:18,184 - INFO - Changing slide content for slide # 4
+2024-01-30 10:31:18,184 - INFO - The Medical Imaging Market encompasses the development, manufacturing, and sale of various diagnostic imaging devices and technologies used in healthcare for visualizing the internal body structure. These technologies produce high-quality images of the human body's structure and function, assisting in early diagnosis and treatment. The market involves a broad range of modalities such as Magnetic Resonance Imaging (MRI), Ultrasound, Computed Tomography (CT), Positron Emission Tomography (PET), and X-ray radiography. The Medical Imaging Market is influenced by technological advancements, rising prevalence of chronic diseases, and growing geriatric population. This market is also driven by increasing investments in healthcare infrastructure, especially in developing countries. However, the high cost of these devices and the lack of skilled professionals are major obstacles to growth.
+
+Common applications for the Medical Imaging market include:
+
+• Diagnostic Imaging: Used in early detection of diseases, aiding in accurate diagnosis and treatment planning.
+• Anatomical Assessment: Helps in visualizing the detailed structure of various body parts.
+• Physiological Evaluation: Used to assess the function of specific organs.
+• Surgical Guidance: Provides real-time imaging during surgical procedures to ensure precision.
+• Treatment Monitoring: Helps in monitoring the progress of treatment and making necessary adjustments.
+• Research and Development: Widely used in clinical trials and research studies for new treatment methods. 
+• Forensic Investigations: Used in post-mortem examinations to determine the cause of death.
+• Screening Programs: Used in preventive healthcare programs for early detection of diseases like cancer.
+2024-01-30 10:31:18,187 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:31:18,192 - INFO - Saving new PowerPoint file
+2024-01-30 10:33:19,034 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:33:19,036 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:33:19,036 - INFO - Loading the powerpoint presentation
+2024-01-30 10:33:19,077 - INFO - Sending request to gpt-4
+2024-01-30 10:33:19,078 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:33:19,079 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:33:19,128 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:33:19,133 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:33:19,290 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f305e5565c0>
+2024-01-30 10:33:19,291 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f305e5401c0> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:33:19,362 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f305e556590>
+2024-01-30 10:33:19,362 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:33:19,364 - DEBUG - send_request_headers.complete
+2024-01-30 10:33:19,365 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:33:19,365 - DEBUG - send_request_body.complete
+2024-01-30 10:33:19,366 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:33:33,209 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:33:33 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'13538'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9874'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'756ms'), (b'x-request-id', b'713252726e4539b8542eafe9c33371c8'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=mW1U3.wz.Uxl_zn0r8XHI2bPMh8Ma_rAYltx0a81oQk-1706585613-1-AfFqvgzDKZqLkCnGm7t+tjQLHiTK5X1bKqjq1x6bvTwUxYMIfC5qx7Zl9tjwFyS4JLo8IzQ65nYknZqBmIV0J5s=; path=/; expires=Tue, 30-Jan-24 04:03:33 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=XP6uggpL6vGoLLFmrkEyLxDtQ_Awu.BW7vu9bpLCeCs-1706585613179-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6a71c3b0c097f-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:33:33,213 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:33:33,213 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:33:33,214 - DEBUG - receive_response_body.complete
+2024-01-30 10:33:33,214 - DEBUG - response_closed.started
+2024-01-30 10:33:33,214 - DEBUG - response_closed.complete
+2024-01-30 10:33:33,214 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:33:33,216 - INFO - OpenAI response received
+2024-01-30 10:33:33,216 - INFO - Changing slide content for slide # 4
+2024-01-30 10:33:33,217 - INFO - The Medical Imaging Market encompasses a broad range of technologies and services used to visualize the human body for diagnostic, monitoring, and therapeutic purposes. It comprises several modalities such as X-ray, ultrasound, computed tomography (CT), positron emission tomography (PET), magnetic resonance imaging (MRI), and nuclear medicine. This market also involves software solutions for image processing and analysis, as well as services such as maintenance, training, and consulting. Key stakeholders include healthcare providers, medical imaging equipment manufacturers, software developers, and service providers. The market is driven by factors such as technological advancements, the aging population, prevalence of chronic diseases, and increased investment in healthcare infrastructure. Regionally, North America and Europe dominate the market due to their advanced medical infrastructure, while Asia-Pacific is expected to show significant growth due to increasing healthcare expenditure and improving healthcare facilities.
+
+Common applications for the Medical Imaging market include:
+
+- Diagnosis and monitoring of diseases: Medical imaging is used to diagnose a variety of conditions, from fractures and infections, to tumors and heart disease.
+- Guiding procedures: Imaging technologies are used during procedures such as biopsies, surgeries, and radiation therapy to guide healthcare providers.
+- Research and development: In the pharmaceutical industry, medical imaging is used in clinical trials to monitor the safety and efficacy of new drugs.
+- Preventative care: Regular imaging tests like mammograms and colonoscopies can help detect diseases like cancer in the early stages.
+- Telemedicine: Digital imaging technologies are used to share patient images with specialists in different locations, enabling remote consultations and diagnoses.
+- Education and training: Medical imaging is a key tool in educating healthcare professionals about human anatomy and pathology.
+2024-01-30 10:33:33,219 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:33:33,224 - INFO - Saving new PowerPoint file
+2024-01-30 10:37:09,405 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:37:09,407 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:37:09,408 - INFO - Loading the powerpoint presentation
+2024-01-30 10:37:09,449 - INFO - Sending request to gpt-4
+2024-01-30 10:37:09,450 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:37:09,451 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:37:09,499 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:37:09,504 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:37:09,582 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fd7e62fe8f0>
+2024-01-30 10:37:09,583 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fd7e62e4a40> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:37:09,640 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fd7e62fe8c0>
+2024-01-30 10:37:09,641 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:37:09,642 - DEBUG - send_request_headers.complete
+2024-01-30 10:37:09,643 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:37:09,643 - DEBUG - send_request_body.complete
+2024-01-30 10:37:09,644 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:37:22,243 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:37:22 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'12275'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9874'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'756ms'), (b'x-request-id', b'e2201c463cbee8014fe5c19c4156431a'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=AJT3c_6YZzMe5Sz6ZSVuzXV3U68EGKcNbxAWo16tLos-1706585842-1-AY2RFEEWyYmrwyxH/k350q3PWMxyt4SrHWX/dxR4zhg7eLBMgcSSzB9pDza5Rj/JRSJTnyRHhZKKJZAkd/tuR3Y=; path=/; expires=Tue, 30-Jan-24 04:07:22 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=_r_pgw9WW.14DUUERD5NS_He2LqSqdjM0b2w2pKOp.o-1706585842195-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6acbb6d421082-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:37:22,250 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:37:22,251 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:37:22,254 - DEBUG - receive_response_body.complete
+2024-01-30 10:37:22,255 - DEBUG - response_closed.started
+2024-01-30 10:37:22,255 - DEBUG - response_closed.complete
+2024-01-30 10:37:22,256 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:37:22,268 - INFO - OpenAI response received
+2024-01-30 10:37:22,269 - INFO - Changing slide content for slide # 4
+2024-01-30 10:37:22,270 - INFO - The Medical Imaging Market encompasses a broad range of technologies dedicated to visualizing the human body's internal structures. This sector includes imaging modalities such as X-ray, computed tomography (CT), magnetic resonance imaging (MRI), ultrasound, and nuclear medicine (PET and SPECT). The market is driven by factors such as technological advancements, increasing prevalence of chronic diseases, and aging populations. It's also divided into segments based on product, application, end-user, and geography. Players in this market range from large multinational corporations to specialized medical technology companies, with a trend towards consolidation and strategic collaborations. The global Medical Imaging Market was valued at approximately $31.5 billion in 2020 and is projected to reach $44.3 billion by 2026, growing at a CAGR of 5.7% from 2021 to 2026. The market is dominated by North America, followed by Europe, Asia-Pacific, and Rest of the World.
+
+Common applications for the Medical Imaging Market include:
+
+- Diagnosing diseases: Medical imaging allows physicians to identify a wide array of conditions such as cancer, cardiovascular diseases, musculoskeletal disorders, and neurological disorders early, improving treatment outcomes.
+- Guiding treatments: Imaging guides many surgical and non-surgical procedures, providing real-time visualization for interventions.
+- Monitoring progress: Physicians use imaging to track the progression of diseases and how well the body responds to treatment.
+- Preventive screenings: Regular imaging can detect potential problems before they become serious, especially in high-risk individuals or those with a family history of certain diseases.
+- Research: Medical imaging aids in medical and pharmaceutical research, helping scientists understand diseases better and develop new treatments.
+2024-01-30 10:37:22,278 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:37:22,287 - INFO - Saving new PowerPoint file
+2024-01-30 10:38:47,935 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:38:47,937 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:38:47,937 - INFO - Loading the powerpoint presentation
+2024-01-30 10:38:47,978 - INFO - Sending request to gpt-4
+2024-01-30 10:38:47,979 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:38:47,980 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:38:48,030 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:38:48,035 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:38:48,192 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fcdd68fe8f0>
+2024-01-30 10:38:48,192 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fcdd68cfb40> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:38:48,261 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fcdd68fe8c0>
+2024-01-30 10:38:48,262 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:38:48,264 - DEBUG - send_request_headers.complete
+2024-01-30 10:38:48,264 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:38:48,265 - DEBUG - send_request_body.complete
+2024-01-30 10:38:48,266 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:39:01,233 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:39:01 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'12617'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9874'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'756ms'), (b'x-request-id', b'b1e8d89250036662e5f42b4bef1efe03'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=hfJATrdmtuMOiHRmMX5QFimd93H_onHsUA4GYBr7ZUA-1706585941-1-AfRV+UD0rp8tn3gumgyxaqhLPOqJfuWA2iNJwnxHA49v2WUyIUipsR80wsePkDlhCsrV7jHlLe9n+z07p6wwnEc=; path=/; expires=Tue, 30-Jan-24 04:09:01 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=mOGhexA9c7MSjLy70gyhmWOt4O.6fS6kQxxTjfyinxo-1706585941168-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6af23dd802224-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:39:01,240 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:39:01,240 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:39:01,242 - DEBUG - receive_response_body.complete
+2024-01-30 10:39:01,242 - DEBUG - response_closed.started
+2024-01-30 10:39:01,243 - DEBUG - response_closed.complete
+2024-01-30 10:39:01,243 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:39:01,254 - INFO - OpenAI response received
+2024-01-30 10:39:01,255 - INFO - Changing slide content for slide # 4
+2024-01-30 10:39:01,257 - INFO - The Medical Imaging Market encompasses a wide range of technologies and services that are utilized for diagnosing, monitoring, and treating various medical conditions. These technologies generate visual representations of the interior of the body for clinical analysis and intervention. The market is significantly driven by technological advancements, growing prevalence of chronic diseases, aging population, and rising healthcare expenditure. The market is divided into segments based on product type (X-ray, ultrasound, CT scan, MRI, nuclear imaging), application (oncology, cardiology, orthopedics, neurology, others), end user (hospitals, diagnostic centers, research centers), and geography. It's experiencing significant growth due to increased demand for early disease detection, non-invasive diagnostic tools, and personalized medicine. The market also faces challenges such as high equipment cost, radiation exposure risks, and stringent regulatory processes. 
+
+Common applications for the Medical Imaging market include:
+
+- Oncology: To detect and monitor the progression of various cancers, and guide biopsies and radiation therapy.
+- Cardiology: To visualize the heart and vascular system for diagnosing heart diseases, planning interventions, and monitoring treatment.
+- Orthopedics: To diagnose and treat bone and joint disorders, and guide surgical procedures.
+- Neurology: To detect brain disorders, injuries, and monitor response to treatment.
+- Obstetrics and Gynecology: Ultrasound imaging is widely used for prenatal care, diagnosing reproductive system disorders, and guiding fertility treatments.
+- Interventional Radiology: To guide minimally invasive surgical procedures.
+- Research: To study disease processes, test new treatments, and develop novel imaging technologies.
+2024-01-30 10:39:01,267 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:39:01,277 - INFO - Saving new PowerPoint file
+2024-01-30 10:39:34,088 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:39:34,090 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:39:34,090 - INFO - Loading the powerpoint presentation
+2024-01-30 10:39:34,131 - INFO - Sending request to gpt-4
+2024-01-30 10:39:34,132 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:39:34,133 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:39:34,183 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:39:34,188 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:39:34,368 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f387a7de6e0>
+2024-01-30 10:39:34,368 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f387a7c8340> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:39:34,440 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f387a7de6b0>
+2024-01-30 10:39:34,441 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:39:34,443 - DEBUG - send_request_headers.complete
+2024-01-30 10:39:34,443 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:39:34,444 - DEBUG - send_request_body.complete
+2024-01-30 10:39:34,444 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:39:46,903 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:39:46 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'12057'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9874'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'756ms'), (b'x-request-id', b'be9513bc9ef32702fd5bda172c4c2310'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=IGV3IHZYqoV8EMPX5Svh3p7rKCOBnzkSEmm4NPu9FBQ-1706585986-1-AVfJmyVlYa3HqIaWYKyJ7e1fmVHS6qXbFYsNfMuE8cO7NruOiJQAdk1uFGCxwIXg8gn1xeYbT/dl+IzQdSlfdAU=; path=/; expires=Tue, 30-Jan-24 04:09:46 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=t1MM3UlFkYaOmQm2IeEAAG2gudyLq70rl_FSqKzgmlc-1706585986799-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6b0447cf11975-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:39:46,909 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:39:46,910 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:39:46,912 - DEBUG - receive_response_body.complete
+2024-01-30 10:39:46,912 - DEBUG - response_closed.started
+2024-01-30 10:39:46,913 - DEBUG - response_closed.complete
+2024-01-30 10:39:46,913 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:39:46,925 - INFO - OpenAI response received
+2024-01-30 10:39:46,925 - INFO - Changing slide content for slide # 4
+2024-01-30 10:39:46,927 - INFO - The Medical Imaging Market encompasses the technologies, devices, and methods used to create visual representations of the interior of the body for clinical analysis and medical intervention. This market includes various sub-segments such as radiology, nuclear medicine, and ultrasound imaging. The industry’s growth is fueled by advancements in technology, rising prevalence of chronic diseases, and an increase in the global geriatric population. The market also includes the sales of imaging equipment, consumables, software, and services related to medical imaging. Market participants range from equipment manufacturers and software developers to healthcare providers and research institutions. The global nature of the market involves complexities in regulatory environments, healthcare policies, and technology standards across different countries. 
+
+Common applications for the Medical Imaging Market include:
+
+- Diagnostic Imaging: Used in the early detection of diseases such as cancer, cardiovascular diseases, and other chronic conditions. 
+- Surgical Applications: Utilized in planning and conducting surgeries, providing surgeons with a detailed view of the area to be operated on. 
+- Research and Development: Used in the study of diseases and the development of new treatments and therapies.
+- Cardiovascular Imaging: Employed in detecting and monitoring heart diseases.
+- Obstetrics and Gynecology Imaging: Used for prenatal screening and the diagnosis of diseases related to women’s reproductive health.
+- Orthopedic Imaging: Utilized for the diagnosis and treatment of musculoskeletal conditions.
+- Dental Imaging: Used in the detection and treatment of oral conditions.
+- Oncological Imaging: Employed in the diagnosis, staging, and monitoring of cancer.
+2024-01-30 10:39:46,932 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:39:46,942 - INFO - Saving new PowerPoint file
+2024-01-30 10:40:02,203 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:40:02,205 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:40:02,205 - INFO - Loading the powerpoint presentation
+2024-01-30 10:40:02,247 - INFO - Sending request to gpt-4
+2024-01-30 10:40:02,248 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:40:02,249 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:40:02,299 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:40:02,304 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:40:02,473 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f2e1baa66e0>
+2024-01-30 10:40:02,473 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f2e1ba90440> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:40:02,540 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f2e1baa66b0>
+2024-01-30 10:40:02,541 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:40:02,542 - DEBUG - send_request_headers.complete
+2024-01-30 10:40:02,543 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:40:02,544 - DEBUG - send_request_body.complete
+2024-01-30 10:40:02,544 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:40:15,883 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:40:15 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'12992'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9874'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'756ms'), (b'x-request-id', b'd098acc8961e92cd6b21f35a0447205b'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=v1XX.QNhgdAXiVPgNjtG_fBlctef3hDV3.0JS3TkwIc-1706586015-1-AXlovx/ujg3kwKwii+E7VPW26FTUC1phqDgueTBUT6WocXHVnBvJiz6tXKYI/xrVMorp43hjbZ1xCJfKJm2oEJw=; path=/; expires=Tue, 30-Jan-24 04:10:15 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=N18kSiWq9ansSAmKp5QnKywscTZZSXj.adskgTAW5M0-1706586015820-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6b0f41b826e69-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:40:15,889 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:40:15,890 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:40:15,892 - DEBUG - receive_response_body.complete
+2024-01-30 10:40:15,892 - DEBUG - response_closed.started
+2024-01-30 10:40:15,893 - DEBUG - response_closed.complete
+2024-01-30 10:40:15,893 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:40:15,904 - INFO - OpenAI response received
+2024-01-30 10:40:15,905 - INFO - Changing slide content for slide # 4
+2024-01-30 10:40:15,907 - INFO - The Medical Imaging Market refers to a global industry involved in the development, manufacturing, and sales of equipment and technology used to visualize the human body for diagnostic, monitoring, and therapeutic applications. This market integrates various technologies such as X-ray radiography, magnetic resonance imaging (MRI), computed tomography (CT), ultrasound, and nuclear medicine, including positron emission tomography (PET) and single-photon emission computed tomography (SPECT). The industry is driven by the rising prevalence of chronic diseases, growing demand for early disease detection, technological advancements, and increasing healthcare expenditure. Regulatory bodies, healthcare providers, research institutions, and medical device manufacturers are key players in the market. The sector is poised for growth due to the increasing aging population, continual advancements in imaging systems, and the rise of artificial intelligence in healthcare.
+
+Common Applications for the Medical Imaging Market include:
+
+- Diagnostic Imaging: Early detection and diagnosis of diseases including cancers, cardiovascular diseases, and neurological disorders.
+- Therapeutic Applications: Guiding surgical procedures, radiation therapy planning, and monitoring disease progression.
+- Preventive Medicine: Regular screenings for disease prevention and health maintenance, particularly in high-risk populations.
+- Research and Development: Clinical trials, drug discovery, and developmental biology studies.
+- Medical Education and Training: High-resolution imaging for teaching anatomy, physiology, and pathology to medical students and trainees.
+- Veterinary Medicine: Diagnosis and treatment planning for companion animals and livestock.
+- Sports Medicine: Injury diagnosis and treatment planning for athletes.
+2024-01-30 10:40:15,915 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:40:15,924 - INFO - Saving new PowerPoint file
+2024-01-30 10:40:32,417 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:40:32,419 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:40:32,419 - INFO - Loading the powerpoint presentation
+2024-01-30 10:40:32,460 - INFO - Sending request to gpt-4
+2024-01-30 10:40:32,461 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:40:32,462 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:40:32,511 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:40:32,516 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:40:32,639 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f2fe8c8e8f0>
+2024-01-30 10:40:32,639 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f2fe8c74a40> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:40:32,698 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f2fe8c8e8c0>
+2024-01-30 10:40:32,699 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:40:32,701 - DEBUG - send_request_headers.complete
+2024-01-30 10:40:32,701 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:40:32,702 - DEBUG - send_request_body.complete
+2024-01-30 10:40:32,702 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:40:46,910 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:40:46 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'13820'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9874'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'756ms'), (b'x-request-id', b'1d2591c355b640a63d31918a7442b67a'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=_h02S.GjJQ9FReWMPZMIBOhHVciKexRnIlEiDRCJFSA-1706586046-1-AV6NU2olH0VxUQhIKS486zxAOQClKiUie8ue9YraJnJnw4T5a34tJlagKch+Mjq2qszZ34srkySQt2IQApk4W14=; path=/; expires=Tue, 30-Jan-24 04:10:46 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=IJOZrPC2Zx7zvzwd_enRhz5DUxtZK_unc16NvpsVWU8-1706586046816-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6b1b08bb410aa-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:40:46,914 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:40:46,914 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:40:46,915 - DEBUG - receive_response_body.complete
+2024-01-30 10:40:46,915 - DEBUG - response_closed.started
+2024-01-30 10:40:46,915 - DEBUG - response_closed.complete
+2024-01-30 10:40:46,915 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:40:46,917 - INFO - OpenAI response received
+2024-01-30 10:40:46,917 - INFO - Changing slide content for slide # 4
+2024-01-30 10:40:46,918 - INFO - The Medical Imaging Market encompasses the production, distribution, and application of various diagnostic imaging devices and technologies. Its primary purpose is to visualize the internal structures and functions of the human body to aid in the diagnosis and treatment of diseases. The market is diversified and includes modalities such as X-ray imaging systems, computed tomography (CT) scanners, magnetic resonance imaging (MRI) systems, ultrasound systems, and nuclear imaging systems. It's further segmented by end-users like hospitals, diagnostic centers, and research institutions. This market is fueled by several factors, including technological advancements, aging populations, and the rising prevalence of chronic diseases. Global trends show a steady growth, owing to the increasing demand for early-stage diagnosis and minimally invasive procedures. The Asia-Pacific region is projected to exhibit the highest growth in the coming years due to the escalating healthcare infrastructure development and increasing patient awareness.
+
+Common applications for the Medical Imaging Market include:
+
+- Disease Diagnosis: Medical imaging is crucial in diagnosing various diseases like cancer, cardiovascular disorders, and neurological conditions.
+- Pre-operative Assessment: It helps in planning surgical interventions by providing detailed views of complex anatomical structures.
+- Treatment Monitoring: Medical imaging is used to track the progress of treatments, providing valuable insights into the effectiveness of interventions.
+- Research: In academic and pharmaceutical research, medical imaging aids in understanding disease progression and response to novel treatments.
+- Preventive Medicine: Screening programs utilize medical imaging to detect diseases in early stages, enhancing the chances of successful treatment.
+- Rehabilitation: Medical imaging can assess the efficacy of rehabilitation programs, especially in musculoskeletal conditions and sports injuries.
+- Interventional Procedures: Real-time imaging guides minimally invasive procedures, improving accuracy and patient outcomes.
+2024-01-30 10:40:46,919 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:40:46,924 - INFO - Saving new PowerPoint file
+2024-01-30 10:41:15,583 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:41:15,585 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:41:15,585 - INFO - Loading the powerpoint presentation
+2024-01-30 10:41:15,626 - INFO - Sending request to gpt-4
+2024-01-30 10:41:15,627 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:41:15,628 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:41:15,677 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:41:15,681 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:41:15,855 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f6f8b05e8f0>
+2024-01-30 10:41:15,855 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f6f8b04c0c0> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:41:15,915 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f6f8b05e8c0>
+2024-01-30 10:41:15,916 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:41:15,918 - DEBUG - send_request_headers.complete
+2024-01-30 10:41:15,918 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:41:15,919 - DEBUG - send_request_body.complete
+2024-01-30 10:41:15,919 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:41:30,534 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:41:30 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'14211'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9874'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'756ms'), (b'x-request-id', b'1c3a0b3704747eced09abb8d62dba8b8'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=6XjoS4aIY2MMgCrYWM04XJ44pitEhs0cWCLMdHK7.s8-1706586090-1-AQARB/MhbbxR16l+UvQ6G4PIMEcOKTTHZqxxwl8qp4lBuBWHsBJ9hd2mwzhAkIEJNbwh2dShMeonSYDSH26gQjc=; path=/; expires=Tue, 30-Jan-24 04:11:30 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=VwG2yBz1l_lkVjFqWXHN6OctVgK1z7m.JJYbwKbceg8-1706586090444-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6b2beaf472332-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:41:30,545 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:41:30,547 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:41:30,549 - DEBUG - receive_response_body.complete
+2024-01-30 10:41:30,550 - DEBUG - response_closed.started
+2024-01-30 10:41:30,551 - DEBUG - response_closed.complete
+2024-01-30 10:41:30,552 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:41:30,568 - INFO - OpenAI response received
+2024-01-30 10:41:30,568 - INFO - Changing slide content for slide # 4
+2024-01-30 10:41:30,570 - INFO - The Medical Imaging Market comprises companies and healthcare professionals who leverage advanced technological equipment to capture images of the inside of a human body. These images serve as a critical tool for medical practitioners to diagnose, monitor, and treat health conditions effectively. The market includes a variety of imaging modalities such as X-rays, computed tomography (CT), magnetic resonance imaging (MRI), ultrasound, and nuclear medicine. Innovations such as 3D imaging, portable diagnostic equipment, and artificial intelligence (AI) integrated imaging devices are transforming the market landscape. Key drivers include the rising prevalence of chronic diseases, aging populations, and technological advancements in healthcare. This market is not confined to hospitals and diagnostic centers, but extends to research institutions, pharmaceutical companies, and educational institutes in the medical field. 
+
+Common applications for the Medical Imaging Market include:
+
+- Diagnostic Screening: Regular imaging tests are conducted to detect health abnormalities early, often before symptoms occur.
+
+- Surgical Applications: Surgeons use medical imaging to plan and execute surgeries with precision. 
+
+- Therapeutic Applications: Treatment plans, especially in oncology, often rely on imaging to monitor the effectiveness of therapies and adjust treatment accordingly.
+
+- Monitoring Disease Progression: Imaging technologies help in tracking the progression of diseases and the effectiveness of treatment.
+
+- Research and Development: Medical imaging is used in the clinical trial phases of drug development to assess the safety and efficacy of new drugs.
+
+- Educational Purposes: In medical teaching institutions, imaging technologies are used for teaching anatomy, pathology, and radiology.
+2024-01-30 10:41:30,580 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:41:30,588 - INFO - Saving new PowerPoint file
+2024-01-30 10:48:27,902 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:48:27,903 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:48:27,903 - INFO - Loading the powerpoint presentation
+2024-01-30 10:48:27,945 - INFO - Sending request to gpt-4
+2024-01-30 10:48:27,946 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:48:27,947 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:48:27,996 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 300 words or less. Then write a summary of common applications for the Medical Imaging market in 200 words or less using a bulleted list. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:48:28,001 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:48:28,170 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fba97dce8f0>
+2024-01-30 10:48:28,170 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fba97dabac0> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:48:28,238 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fba97dce8c0>
+2024-01-30 10:48:28,238 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:48:28,239 - DEBUG - send_request_headers.complete
+2024-01-30 10:48:28,239 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:48:28,240 - DEBUG - send_request_body.complete
+2024-01-30 10:48:28,240 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:48:40,201 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:48:40 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'11486'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9874'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'756ms'), (b'x-request-id', b'f713b066cbfe50c3bbc6cd489b4f8c40'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=9bWOIeLleuxUdTb5Z3_wuZBEbRTnLoXwzZk_bN9RRdM-1706586520-1-AUiKyGbhiTkJDSulAOynY5jnAeWwtKBY0HffGuw7T/XLfLMlCmZmyq9FgrAKYMUYrwoVm0SpE1rFP0S70z0ucjM=; path=/; expires=Tue, 30-Jan-24 04:18:40 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=.Y.mAr7LF_Qq6uWDhO2KW5_zlZr8wZEQJKajgWmgX5E-1706586520095-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6bd4cb8640970-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:48:40,208 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:48:40,209 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:48:40,211 - DEBUG - receive_response_body.complete
+2024-01-30 10:48:40,211 - DEBUG - response_closed.started
+2024-01-30 10:48:40,211 - DEBUG - response_closed.complete
+2024-01-30 10:48:40,212 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:48:40,223 - INFO - OpenAI response received
+2024-01-30 10:48:40,223 - INFO - Changing slide content for slide # 4
+2024-01-30 10:48:40,225 - INFO - The Medical Imaging Market comprises companies that provide technologies and services for visualizing the human body to diagnose, monitor, or treat medical conditions. This market includes various imaging modalities such as X-ray, ultrasound, computed tomography (CT), magnetic resonance imaging (MRI), and nuclear medicine. It also encompasses software solutions for image analysis and storage, as well as supplemental services like maintenance and training. This market is driven by technological advancements, increasing prevalence of chronic diseases, rising geriatric population, and growing patient awareness about early disease detection. However, high costs of imaging technologies and certain regulatory hurdles can pose challenges. Key market participants range from multinational corporations to small specialized firms, including manufacturers, software developers, and service providers. 
+
+Common applications for the Medical Imaging Market include:
+
+- Diagnostic Imaging: Medical imaging is crucial in diagnosing a wide range of diseases, including cancer, cardiovascular conditions, neurological disorders, and musculoskeletal issues.
+- Preventive Screening: Regular imaging tests like mammograms, colonoscopies, and heart scans can help detect diseases at early stages when they are most treatable.
+- Treatment Planning: Medical imaging can guide interventions such as surgery, radiation therapy, and drug treatment plans, by providing detailed information about disease location and extent.
+- Monitoring Disease Progression: Regular imaging can track the effectiveness of treatment and assess disease progression.
+- Research: Medical imaging is used in clinical trials and biomedical research to understand disease mechanisms and develop new treatments.
+2024-01-30 10:48:40,235 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:48:40,246 - INFO - Saving new PowerPoint file
+2024-01-30 10:49:08,325 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:49:08,327 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:49:08,327 - INFO - Loading the powerpoint presentation
+2024-01-30 10:49:08,369 - INFO - Sending request to gpt-4
+2024-01-30 10:49:08,370 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:49:08,371 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:49:08,422 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 250 words or less. Then write a summary of common applications for the Medical Imaging market in 160 words or less using a bulleted list. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:49:08,427 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:49:08,554 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f00d44aa8f0>
+2024-01-30 10:49:08,554 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f00d4490940> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:49:08,612 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f00d44aa8c0>
+2024-01-30 10:49:08,613 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:49:08,615 - DEBUG - send_request_headers.complete
+2024-01-30 10:49:08,615 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:49:08,616 - DEBUG - send_request_body.complete
+2024-01-30 10:49:08,616 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:49:17,987 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:49:17 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'8982'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9874'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'756ms'), (b'x-request-id', b'7080185e26c28a68a1783d9e61934afd'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=NwrGYrx3Gt4JOHHhXXklcGGlJzzihATH6xClMBIP_KY-1706586557-1-ASPZPkjfLRklC0foqIBoZauuehn+LCNGs2PTYFYYhl+K2ti989zh22B7NkczLxkWZooDNTNFSjocGTHoJe6r964=; path=/; expires=Tue, 30-Jan-24 04:19:17 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=Tem5f0z1KUy3X1SNG7_xEFL54MmOIh_MMg5x4CJlBnI-1706586557892-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6be48fe25210b-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:49:17,991 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:49:17,991 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:49:17,992 - DEBUG - receive_response_body.complete
+2024-01-30 10:49:17,992 - DEBUG - response_closed.started
+2024-01-30 10:49:17,992 - DEBUG - response_closed.complete
+2024-01-30 10:49:17,992 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:49:17,994 - INFO - OpenAI response received
+2024-01-30 10:49:17,994 - INFO - Changing slide content for slide # 4
+2024-01-30 10:49:17,995 - INFO - The Medical Imaging Market encompasses the production, distribution, and usage of various diagnostic imaging technologies and services. These technologies and services include, but are not limited to, X-ray imaging, ultrasound, computed tomography (CT), positron emission tomography (PET), magnetic resonance imaging (MRI), and nuclear medicine. The market serves a diverse range of healthcare providers and patients worldwide. As an essential component of modern medicine, this market is heavily influenced by technological advancements, regulatory policies, demographic factors, and global health trends. The market's growth is driven by the rising prevalence of chronic diseases, an aging population, and continuous innovation in imaging technologies.
+
+Common applications for the Medical Imaging Market include:
+
+- Disease Diagnosis: Early and accurate detection of diseases like cancer, heart disease, or neurological disorders.
+- Surgical Planning and Guidance: Preoperative imaging to plan surgeries and intraoperative imaging to guide surgical procedures.
+- Treatment Monitoring: Regular imaging to track disease progression or assess the effectiveness of treatments.
+- Research: Advanced imaging technologies used in medical and pharmaceutical research.
+- Preventative Health Checks: Routine imaging for early detection of health issues in asymptomatic individuals. 
+- Telemedicine: Remote diagnostic services using digital imaging technology.
+2024-01-30 10:49:17,997 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:49:18,002 - INFO - Saving new PowerPoint file
+2024-01-30 10:49:18,102 - DEBUG - close.started
+2024-01-30 10:49:18,102 - DEBUG - close.complete
+2024-01-30 10:50:02,637 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:50:02,638 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:50:02,638 - INFO - Loading the powerpoint presentation
+2024-01-30 10:50:02,680 - INFO - Sending request to gpt-4
+2024-01-30 10:50:02,681 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:50:02,682 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:50:02,731 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 230 words or less. Then write a summary of common applications for the Medical Imaging market in 150 words or less using a bulleted list. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:50:02,736 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:50:02,904 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fdbe7bbe8f0>
+2024-01-30 10:50:02,905 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fdbe7ba83c0> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:50:02,980 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fdbe7bbe8c0>
+2024-01-30 10:50:02,981 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:50:02,983 - DEBUG - send_request_headers.complete
+2024-01-30 10:50:02,983 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:50:02,984 - DEBUG - send_request_body.complete
+2024-01-30 10:50:02,984 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:50:13,796 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:50:13 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'10476'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9874'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'756ms'), (b'x-request-id', b'ad18122a21d4a4243796f856408aa690'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=HzTK94D0Qml_SEkijI.W5YkRnNaTJOX8bnU5LWUrA9I-1706586613-1-AVO7Xs9K3XSalR9T3K6HkW+Xy55cIfbZcxrndMuan72ZmAOSf+8pC6rW422P9f1UwXbaZQYJnbsY4KfF4C21/tA=; path=/; expires=Tue, 30-Jan-24 04:20:13 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=1OIFrbWKcqzJ29NqR35CN7eB6VX.8bw10dryEOUEz3I-1706586613747-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6bf9cddc0110b-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:50:13,803 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:50:13,804 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:50:13,806 - DEBUG - receive_response_body.complete
+2024-01-30 10:50:13,807 - DEBUG - response_closed.started
+2024-01-30 10:50:13,807 - DEBUG - response_closed.complete
+2024-01-30 10:50:13,807 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:50:13,818 - INFO - OpenAI response received
+2024-01-30 10:50:13,818 - INFO - Changing slide content for slide # 4
+2024-01-30 10:50:13,820 - INFO - The Medical Imaging Market encompasses technologies, devices, and methods used to create visual representations of the interior of a body for clinical analysis and medical intervention. It's a crucial aspect of modern healthcare, enabling accurate diagnosis and effective treatment of various medical conditions. This market includes modalities such as X-ray, ultrasound, magnetic resonance imaging (MRI), computed tomography (CT), nuclear medicine, and mammography. The market's growth is driven by advancements in technology, increasing prevalence of chronic diseases, and a rising elderly population. Key players include GE Healthcare, Siemens Healthineers, Philips Healthcare, and Canon Medical Systems.
+
+Common applications for the Medical Imaging Market include:
+
+- Diagnosis and treatment of diseases: Medical imaging technologies like CT, MRI, and ultrasound are frequently used for diagnosing various conditions like cancer, cardiovascular diseases, and neurological disorders.
+- Pre-surgical planning: Medical imaging helps in planning surgical procedures by providing a detailed view of the area to be operated on.
+- Guiding medical procedures: Ultrasound, X-ray, and fluoroscopy are often used to guide minimally invasive procedures like biopsies and catheter insertions.
+- Research and development: Medical imaging is vital in clinical trials and research, aiding in the development of new treatments and therapies.
+- Monitoring therapy: Imaging technologies allow doctors to monitor the progress of treatment and adjust it if necessary.
+2024-01-30 10:50:13,826 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:50:13,835 - INFO - Saving new PowerPoint file
+2024-01-30 10:51:01,499 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 10:51:01,501 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 10:51:01,501 - INFO - Loading the powerpoint presentation
+2024-01-30 10:51:01,543 - INFO - Sending request to gpt-4
+2024-01-30 10:51:01,543 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 10:51:01,545 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 10:51:01,595 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 230 words or less. Then write a summary of common applications for the Medical Imaging market in 150 words or less using a bulleted list with 3 points. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 10:51:01,599 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 10:51:01,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ff8f35aa8f0>
+2024-01-30 10:51:01,865 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7ff8f3591d40> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 10:51:01,926 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ff8f35aa8c0>
+2024-01-30 10:51:01,927 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 10:51:01,929 - DEBUG - send_request_headers.complete
+2024-01-30 10:51:01,929 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 10:51:01,930 - DEBUG - send_request_body.complete
+2024-01-30 10:51:01,930 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 10:51:11,340 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 03:51:11 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'9020'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9870'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'780ms'), (b'x-request-id', b'a2d649344da0d8bc1abd9dcfe10d8fd1'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=QEmyOc7MKiwJP5n5LHrfzN_Rzo.WZXI1PvcxUFvw_1Y-1706586671-1-AQrNK0JzZ3xQSuUsryUWaWvBcb7EkMknEJyQAxODmBVPubXe2Y4ZR8wbVUOzlEZuNfqSzg7LBE8cLL0PSTKQtew=; path=/; expires=Tue, 30-Jan-24 04:21:11 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=kVTUe2s1hxDZGvmqK3B3j.xwAfQFuPCPl8ePaHbBByU-1706586671239-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6c10d3ab510a2-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 10:51:11,343 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 10:51:11,343 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 10:51:11,343 - DEBUG - receive_response_body.complete
+2024-01-30 10:51:11,344 - DEBUG - response_closed.started
+2024-01-30 10:51:11,344 - DEBUG - response_closed.complete
+2024-01-30 10:51:11,344 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 10:51:11,346 - INFO - OpenAI response received
+2024-01-30 10:51:11,346 - INFO - Changing slide content for slide # 4
+2024-01-30 10:51:11,347 - INFO - The Medical Imaging Market encompasses the various technologies and methods used to visualize the human body for diagnostic, monitoring, and therapeutic purposes. It includes sub-sectors such as X-ray imaging, Computed Tomography (CT), Magnetic Resonance Imaging (MRI), Ultrasound, and Nuclear Medicine. This market is driven by advancements in technology, an aging population, and an increasing prevalence of chronic diseases. The rise in healthcare investments, coupled with growing health awareness worldwide, is also stimulating the market's growth. The introduction of AI and machine learning in medical imaging technology is expected to create new expansion opportunities. However, the high cost of imaging devices and the risks associated with radiation exposure may hinder the market's growth.
+
+• Diagnostic Purposes: Medical imaging is primarily used to diagnose a wide range of diseases, from cancer to cardiovascular conditions, by providing detailed images of the body's structures and functions.
+
+• Monitoring Treatment: Medical imaging is used to monitor the progress of a treatment plan, assessing the effectiveness of a particular treatment or observing the progression of a disease.
+
+• Guiding Procedures: In surgeries and minimally invasive procedures, medical imaging technologies like ultrasound and MRI provide real-time, detailed images to guide practitioners.
+2024-01-30 10:51:11,349 - INFO - Slide # 4 succesfully changed
+2024-01-30 10:51:11,353 - INFO - Saving new PowerPoint file
+2024-01-30 11:02:50,926 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 11:02:50,928 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 11:02:50,928 - INFO - Loading the powerpoint presentation
+2024-01-30 11:02:50,973 - INFO - Sending request to gpt-4
+2024-01-30 11:02:50,974 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 11:02:50,975 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 11:02:51,028 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 230 words or less. Then write a summary of common applications for the Medical Imaging market in 150 words or less using a bulleted list with 3 points. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 11:02:51,033 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 11:02:51,177 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f6733dcaa10>
+2024-01-30 11:02:51,178 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f6733d9fac0> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 11:02:51,236 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f6733dca9e0>
+2024-01-30 11:02:51,237 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 11:02:51,239 - DEBUG - send_request_headers.complete
+2024-01-30 11:02:51,239 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 11:02:51,240 - DEBUG - send_request_body.complete
+2024-01-30 11:02:51,240 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 11:03:00,340 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 04:03:00 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'8678'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9870'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'780ms'), (b'x-request-id', b'a042810100728efa0f29e0b0baabc373'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=PfrPYoMkPDcFLiJfa9wkhWASCzT8pVlfAe6Q3.tt0Fc-1706587380-1-AfUcGZZhrmqGup99KW4U1x7z1PZq9XzWFXKN7wEPutsJ0bOTvBD/BesGVRmXbeY1hEdtHbBaExXy1AFjp+r1kc0=; path=/; expires=Tue, 30-Jan-24 04:33:00 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=vs5YmqKNf0M5Ow0.7tmnsy.LuGjCG_VDh8PoGisOwsE-1706587380291-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6d25e8e590ed0-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 11:03:00,348 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 11:03:00,348 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 11:03:00,351 - DEBUG - receive_response_body.complete
+2024-01-30 11:03:00,351 - DEBUG - response_closed.started
+2024-01-30 11:03:00,352 - DEBUG - response_closed.complete
+2024-01-30 11:03:00,352 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 11:03:00,365 - INFO - OpenAI response received
+2024-01-30 11:03:00,366 - INFO - Changing slide content for slide # 4
+2024-01-30 11:03:00,368 - INFO - The Medical Imaging Market encompasses a range of non-invasive diagnostic techniques that allow healthcare professionals to visualize internal structures and functions of patients' bodies. It includes various imaging modalities such as X-Rays, CT scans, MRI scans, ultrasound, and nuclear imaging. The market is driven by the increasing prevalence of chronic diseases, technological advancements, and aging populations. It is also significantly impacted by factors such as government regulations, reimbursement policies, and the economic environment. The global market is further segmented into hardware, software, and services, along with different types of imaging techniques and geographic regions.
+
+• Diagnostic Radiology: This is the most common application in the medical imaging market, involving the use of X-rays, CT scans, and MRI scans to diagnose ailments such as fractures, tumors, and various internal injuries.
+• Obstetrics/Gynecology (OB/GYN) Ultrasound: This application involves the use of ultrasound technology to monitor fetal development and diagnose potential complications in pregnancy.
+• Cardiology: Medical imaging is extensively used in cardiology for diagnosing heart diseases, monitoring heart functions, and planning treatments using techniques like echocardiograms, cardiac CT scans, and cardiac MRIs.
+2024-01-30 11:03:00,377 - INFO - Slide # 4 succesfully changed
+2024-01-30 11:03:00,384 - INFO - Saving new PowerPoint file
+2024-01-30 11:03:51,702 - DEBUG - Going to validate: [FieldData(name='return', value=<Logger test_pp (DEBUG)>, annotation=<class 'logging.Logger'>)]
+2024-01-30 11:03:51,704 - DEBUG - Replace: {'return': <Logger test_pp (DEBUG)>}
+2024-01-30 11:03:51,704 - INFO - Loading the powerpoint presentation
+2024-01-30 11:03:51,747 - INFO - Sending request to gpt-4
+2024-01-30 11:03:51,748 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-01-30 11:03:51,749 - DEBUG - load_verify_locations cafile='/home/kevin/envs/test_pp/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-01-30 11:03:51,799 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional consultant that is an expert in market research. Your target audience is business executives. Be concise and only include information that is factual.'}, {'role': 'user', 'content': 'Write a market definition for the Medical Imaging Market in 230 words or less. Then write a summary of common applications for the Medical Imaging market in 150 words or less using a bulleted list with 3 points. Do not include a title for this definition, only the content.'}], 'model': 'gpt-4', 'n': 1, 'stop': None, 'temperature': 0.7}}
+2024-01-30 11:03:51,806 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-01-30 11:03:51,977 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe5eebd2a10>
+2024-01-30 11:03:51,977 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fe5eebb5e40> server_hostname='api.openai.com' timeout=5.0
+2024-01-30 11:03:52,033 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe5eebd29e0>
+2024-01-30 11:03:52,034 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-01-30 11:03:52,035 - DEBUG - send_request_headers.complete
+2024-01-30 11:03:52,035 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-01-30 11:03:52,035 - DEBUG - send_request_body.complete
+2024-01-30 11:03:52,035 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-01-30 11:04:01,369 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 30 Jan 2024 04:04:01 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-4-0613'), (b'openai-organization', b'shorecode'), (b'openai-processing-ms', b'8911'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9870'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'780ms'), (b'x-request-id', b'1c667eec208e13a41bf1e0e798ea4574'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=bJHDB696s8iFCe1MPpzTXwn7LrQxQWqhBccQYrymLcs-1706587441-1-ARWj6oY6YrglPbU/IIJf5KHY9hk9uYvHbZ9uCmJ3CvcvXi3Jdm4E4beydNon0bNVximtuJDmbFhqmF83tXj+XYM=; path=/; expires=Tue, 30-Jan-24 04:34:01 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=siIs9YntElLF7YO69ODKBpKcgYhXTdyQU3YSJYbmK_0-1706587441257-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'84d6d3da897807ae-HKG'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-01-30 11:04:01,374 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-30 11:04:01,374 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-01-30 11:04:01,375 - DEBUG - receive_response_body.complete
+2024-01-30 11:04:01,376 - DEBUG - response_closed.started
+2024-01-30 11:04:01,376 - DEBUG - response_closed.complete
+2024-01-30 11:04:01,376 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-01-30 11:04:01,382 - INFO - OpenAI response received
+2024-01-30 11:04:01,382 - INFO - Changing slide content for slide # 4
+2024-01-30 11:04:01,383 - INFO - The Medical Imaging Market comprises companies that provide technologies for creating visual representations of the interior of a body for clinical analysis and medical intervention. This market includes various imaging modalities such as X-ray, computed tomography (CT), magnetic resonance imaging (MRI), ultrasound, and nuclear imaging (PET and SPECT). The market's growth is driven by the rise in prevalence of chronic diseases, increasing demand for early disease diagnosis, and the growing geriatric population worldwide. Technological advancements in diagnostic imaging devices, increasing investments, funds, and grants by government bodies, and the introduction of hybrid imaging systems are also key factors contributing to the market's expansion.
+
+Common applications for the Medical Imaging Market include:
+
+- Disease Diagnosis: Medical imaging technologies are used to diagnose a wide range of diseases, from cancer to cardiovascular ailments, providing detailed insights into the body's internal structure.
+- Surgical Applications: Surgeons utilize these technologies for pre-operative assessments and during procedures for real-time visualization of the operative field.
+- Research: Medical imaging is vital for medical research, aiding in the understanding of disease progression, the development of new treatments, and monitoring treatment efficacy.
+2024-01-30 11:04:01,391 - INFO - Slide # 4 succesfully changed
+2024-01-30 11:04:01,397 - INFO - Saving new PowerPoint file
